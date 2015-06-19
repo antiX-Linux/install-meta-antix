@@ -1,0 +1,17 @@
+FLL_DESCRIPTION="2 Games from debian's non-free and contrib repos: alien-arena and angband"
+
+FLL_PRE_PROCESSING=(
+	"#!/bin/bash"
+	"echo \"---- in preprocessing ----\""
+	"echo \"---- preprocessing done----\""
+)
+
+FLL_PACKAGE_DEPMODS=(
+)
+
+FLL_PACKAGES=(
+     alien-arena
+     angband
+     
+)
+

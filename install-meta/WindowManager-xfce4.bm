@@ -1,0 +1,50 @@
+FLL_DESCRIPTION="xfce4"
+
+FLL_PRE_PROCESSING=(
+	"#!/bin/bash"
+	"echo \"---- in preprocessing ----\""
+	"# paste your code here (not necessary for normal install, only for preconfigs)"
+	"echo \"---- preprocessing done----\""
+)
+
+FLL_PACKAGE_DEPMODS=(
+)
+
+FLL_PACKAGES=(
+      xfce4
+      xfce4-appfinder
+      xfce4-artwork
+      xfce4-battery-plugin
+      xfce4-clipman-plugin
+      xfce4-cpufreq-plugin
+      xfce4-cpugraph-plugin
+      xfce4-diskperf-plugin
+      xfce4-fsguard-plugin
+      xfce4-genmon-plugin
+      #xfce4-goodies
+      xfce4-mailwatch-plugin
+      xfce4-mixer
+      xfce4-mount-plugin
+      #xfce4-netload-plugin
+      xfce4-notes-plugin
+      xfce4-panel
+      xfce4-quicklauncher-plugin
+      xfce4-screenshooter-plugin
+      xfce4-sensors-plugin
+      xfce4-smartbookmark-plugin
+      xfce4-systemload-plugin
+      xfce4-terminal
+      xfce4-verve-plugin
+      xfce4-wavelan-plugin
+      xfce4-weather-plugin
+      thunar
+      thunar-archive-plugin
+      thunar-media-tags-plugin
+      #thunar-thumbnailers
+      thunar-volman 
+      gvfs
+      lightdm
+      lightdm-gtk-greeter 
+      policykit-1
+)
+

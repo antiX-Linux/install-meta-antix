@@ -1,0 +1,20 @@
+FLL_DESCRIPTION="Chinese fonts packages"
+
+FLL_PRE_PROCESSING=(
+	"#!/bin/bash"
+	"echo \"---- in preprocessing ----\""
+	"# paste your code here (not necessary for normal install, only for preconfigs)"
+	"echo \"---- preprocessing done----\""
+)
+
+FLL_PACKAGE_DEPMODS=(
+)
+
+FLL_PACKAGES=(
+	xfonts-wqy
+        fonts-arphic-ukai	
+	fonts-arphic-uming
+	fonts-wqy-microhei
+	fonts-wqy-zenhei
+)
+
