@@ -1,3 +1,10 @@
+install-meta-antix (0.6.5) unstable; urgency=low 
+ 
+  * Entry in .desktop file changed to System
+
+ -- anticapitalista <antiX@operamail.com>  Fri, 26 Jun 2015 17:41:00 +0200
+
+
 install-meta-antix (0.6.4) unstable; urgency=low 
  
   * Added samba to list
