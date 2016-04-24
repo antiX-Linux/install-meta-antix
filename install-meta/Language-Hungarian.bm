@@ -1,4 +1,4 @@
-FLL_DESCRIPTION="Hungarian Language Meta-Package."
+FLL_DESCRIPTION="Hungarian Language Meta-Package"
 
 FLL_PRE_PROCESSING=(
 	"#!/bin/bash"
@@ -11,8 +11,7 @@ FLL_PACKAGE_DEPMODS=(
 )
 
 FLL_PACKAGES=(
-      aspell-hu
-      myspell-hu
-      manpages-hu 
-
+	aspell-hu
+      	myspell-hu
+      	manpages-hu
 )

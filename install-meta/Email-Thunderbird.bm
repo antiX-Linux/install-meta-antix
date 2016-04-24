@@ -1,4 +1,4 @@
-FLL_DESCRIPTION="Latest Thunderbird email client from MX Community."
+FLL_DESCRIPTION="Latest Thunderbird email client from MX Community"
 
 FLL_PRE_PROCESSING=(
 	"#!/bin/bash"
@@ -14,8 +14,7 @@ FLL_PACKAGE_DEPMODS=(
 )
 
 FLL_PACKAGES=(
-     thunderbird 
-     
+	thunderbird
 )
 
 FLL_POST_PROCESSING=(
@@ -24,5 +23,4 @@ FLL_POST_PROCESSING=(
        "echo \"Removing MX repository from /etc/apt/sources.list.d/mx.list\""
        "sed -i -r '/main/ s/^([^#])/#\1/' /etc/apt/sources.list.d/mx.list"
        "echo \"---- postprocessing done----\""
-
 )

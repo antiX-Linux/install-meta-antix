@@ -11,8 +11,7 @@ FLL_PACKAGE_DEPMODS=(
 )
 
 FLL_PACKAGES=(
-
-        fcitx
+	fcitx
         fcitx-config-gtk
         fcitx-frontend-all
         fcitx-frontend-fbterm
@@ -21,6 +20,5 @@ FLL_PACKAGES=(
         fcitx-ui-light 
         fcitx-unikey
 	im-config
-        
 )
 

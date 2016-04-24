@@ -22,5 +22,4 @@ FLL_PACKAGES=(
 	libreoffice-l10n-zh-tw
 	libreoffice-help-zh-tw 
         libreoffice-gtk
-
 )

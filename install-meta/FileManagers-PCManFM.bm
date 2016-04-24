@@ -1,4 +1,4 @@
-FLL_DESCRIPTION="PCManFM - a fast and lightweight file manager."
+FLL_DESCRIPTION="PCManFM - a fast and lightweight file manager"
 
 FLL_PRE_PROCESSING=(
 	"#!/bin/bash"
@@ -11,8 +11,5 @@ FLL_PACKAGE_DEPMODS=(
 )
 
 FLL_PACKAGES=(
-	
-        pcmanfm
-        	
+	pcmanfm	
 )
-

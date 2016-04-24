@@ -11,9 +11,8 @@ FLL_PACKAGE_DEPMODS=(
 )
 
 FLL_PACKAGES=(
-        gamine 
+	gamine 
 	gcompris
         gcompris-sound-en
         tuxpaint
-
 )

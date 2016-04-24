@@ -1,4 +1,4 @@
-FLL_DESCRIPTION="Audacious - lightweight winamp/xmms like audio player."
+FLL_DESCRIPTION="Audacious - lightweight winamp/xmms like audio player"
 
 FLL_PRE_PROCESSING=(
 	"#!/bin/bash"
@@ -11,8 +11,5 @@ FLL_PACKAGE_DEPMODS=(
 )
 
 FLL_PACKAGES=(
-  
-      audacious 
-
+	audacious 
 )
-

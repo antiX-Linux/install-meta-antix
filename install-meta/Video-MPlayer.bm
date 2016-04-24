@@ -1,4 +1,4 @@
-FLL_DESCRIPTION="MPlayer - a powerful multimedia player and much more."
+FLL_DESCRIPTION="MPlayer - a powerful multimedia player and much more"
 
 FLL_PRE_PROCESSING=(
 	"#!/bin/bash"
@@ -11,7 +11,5 @@ FLL_PACKAGE_DEPMODS=(
 )
 
 FLL_PACKAGES=(
-     mplayer
-
+	mplayer
 )
-

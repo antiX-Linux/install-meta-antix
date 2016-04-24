@@ -1,4 +1,4 @@
-FLL_DESCRIPTION="SpaceFM - a multi-panel tabbed file and desktop manager offering stability, speed, convenience and flexibility."
+FLL_DESCRIPTION="SpaceFM - a multi-panel tabbed file and desktop manager offering stability, speed, convenience and flexibility"
 
 FLL_PRE_PROCESSING=(
 	"#!/bin/bash"
@@ -11,8 +11,5 @@ FLL_PACKAGE_DEPMODS=(
 )
 
 FLL_PACKAGES=(
-	
-        spacefm
-        	
+	spacefm	
 )
-

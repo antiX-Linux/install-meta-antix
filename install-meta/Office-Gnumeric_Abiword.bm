@@ -18,4 +18,3 @@ FLL_PACKAGES=(
         abiword
         abiword-common
 )
-

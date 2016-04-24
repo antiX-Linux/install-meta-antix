@@ -11,12 +11,11 @@ FLL_PACKAGE_DEPMODS=(
 )
 
 FLL_PACKAGES=(
-        libreoffice-calc
+	libreoffice-calc
         libreoffice-draw     
         libreoffice-impress 
         libreoffice-math
         libreoffice-writer
 	libreoffice-l10n-uk
         libreoffice-gtk
-
 )

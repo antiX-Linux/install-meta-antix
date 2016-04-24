@@ -1,4 +1,4 @@
-FLL_DESCRIPTION="Italian Language Meta-Package."
+FLL_DESCRIPTION="Italian Language Meta-Package"
 
 FLL_PRE_PROCESSING=(
 	"#!/bin/bash"
@@ -11,8 +11,7 @@ FLL_PACKAGE_DEPMODS=(
 )
 
 FLL_PACKAGES=(
-      aspell-it
-      myspell-it
-      manpages-it 
-
+	aspell-it
+      	myspell-it
+      	manpages-it
 )

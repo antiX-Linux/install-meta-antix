@@ -1,4 +1,4 @@
-FLL_DESCRIPTION="Guayadeque - a music management program designed for all music enthusiasts."
+FLL_DESCRIPTION="Guayadeque - a music management program designed for all music enthusiasts"
 
 FLL_PRE_PROCESSING=(
 	"#!/bin/bash"
@@ -11,8 +11,5 @@ FLL_PACKAGE_DEPMODS=(
 )
 
 FLL_PACKAGES=(
-     
-     guayadeque 
-
+	guayadeque 
 )
-

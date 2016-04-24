@@ -11,9 +11,7 @@ FLL_PACKAGE_DEPMODS=(
 )
 
 FLL_PACKAGES=(
-       kde-full 
-       kdm
-       virtuoso-minimal 
-      
+	kde-full 
+       	kdm
+       	virtuoso-minimal
 )
-

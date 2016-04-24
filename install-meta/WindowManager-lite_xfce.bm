@@ -21,4 +21,3 @@ FLL_PACKAGES=(
         gvfs
         policykit-1
 )
-

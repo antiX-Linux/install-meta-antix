@@ -1,4 +1,4 @@
-FLL_DESCRIPTION="newsbeuter -  a text mode rss feed reader with podcast support."
+FLL_DESCRIPTION="newsbeuter -  a text mode rss feed reader with podcast support"
 
 FLL_PRE_PROCESSING=(
 	"#!/bin/bash"
@@ -11,9 +11,6 @@ FLL_PACKAGE_DEPMODS=(
 )
 
 FLL_PACKAGES=(
-  
-      newsbeuter
-      
-    
+	newsbeuter
 )
 

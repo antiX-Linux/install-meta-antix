@@ -1,4 +1,4 @@
-FLL_DESCRIPTION="Blender - a free and open source 3D animation suite."
+FLL_DESCRIPTION="Blender - a free and open source 3D animation suite"
 
 FLL_PRE_PROCESSING=(
 	"#!/bin/bash"
@@ -13,7 +13,5 @@ FLL_PACKAGE_DEPMODS=(
 FLL_PACKAGES=(
 	blender
         libgl1-mesa-dri
-        #blender-ogrexml
-	
+        #blender-ogrexml	
 )
-

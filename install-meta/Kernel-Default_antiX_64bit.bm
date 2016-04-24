@@ -1,0 +1,14 @@
+FLL_DESCRIPTION="Default (jessie) antiX Kernel 64 bit"
+
+FLL_PRE_PROCESSING=(
+	"#!/bin/bash"
+	"echo \"---- preprocessing done----\""
+)
+
+FLL_PACKAGE_DEPMODS=(
+)
+
+FLL_PACKAGES=(
+	linux-image-4.4.8-antix.2-amd64-smp
+	linux-headers-4.4.8-antix.2-amd64-smp
+)

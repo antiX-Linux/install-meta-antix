@@ -1,11 +1,9 @@
-FLL_DESCRIPTION="Latest Seamonkey from MX Community"
+FLL_DESCRIPTION="Latest Seamonkey packaged by MX Community"
 
 FLL_PRE_PROCESSING=(
 	"#!/bin/bash"
 	"echo \"---- in preprocessing ----\""
-        "echo \"Adding MX repository to /etc/apt/sources.list.d/mx.list\""
-	"sed -i -r '/main/ s/^#+//' /etc/apt/sources.list.d/mx.list" 
-        "apt-get update"
+	"# paste your code here (not necessary for normal install, only for preconfigs)"
         "echo \"---- preprocessing done----\""
 )
 
@@ -13,15 +11,5 @@ FLL_PACKAGE_DEPMODS=(
 )
 
 FLL_PACKAGES=(
-     seamonkey
-     
-)
-
-FLL_POST_PROCESSING=(
-       "#!/bin/bash"
-       "echo \"---- in postprocessing ----\""
-       "echo \"Removing MX repository from /etc/apt/sources.list.d/mx.list\""
-       "sed -i -r '/testrepo/ s/^([^#])/#\1/' /etc/apt/sources.list.d/mx.list"
-       "echo \"---- postprocessing done----\""
-
+	seamonkey
 )

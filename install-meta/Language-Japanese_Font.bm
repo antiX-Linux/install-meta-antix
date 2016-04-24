@@ -11,11 +11,8 @@ FLL_PACKAGE_DEPMODS=(
 )
 
 FLL_PACKAGES=(
-	
 	fonts-ipafont-gothic
         fonts-ipafont-mincho
         fonts-umeplus
-	fonts-vlgothic	
-
+	fonts-vlgothic
 )
-

@@ -1,4 +1,4 @@
-FLL_DESCRIPTION="Croatian LibreOffice Language Meta-Package (no database)."
+FLL_DESCRIPTION="Croatian LibreOffice Language Meta-Package (no database)"
 
 FLL_PRE_PROCESSING=(
 	"#!/bin/bash"
@@ -16,6 +16,5 @@ FLL_PACKAGES=(
         libreoffice-impress 
         libreoffice-math
         libreoffice-writer
-	libreoffice-l10n-hr
-	
+	libreoffice-l10n-hr	
 )

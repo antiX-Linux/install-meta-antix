@@ -1,4 +1,4 @@
-FLL_DESCRIPTION="Croatian Language Meta-Package."
+FLL_DESCRIPTION="Croatian Language Meta-Package"
 
 FLL_PRE_PROCESSING=(
 	"#!/bin/bash"
@@ -11,8 +11,6 @@ FLL_PACKAGE_DEPMODS=(
 )
 
 FLL_PACKAGES=(
-      aspell-hr
-      myspell-hr
-      
+	aspell-hr
+	myspell-hr
 )
-

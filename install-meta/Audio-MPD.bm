@@ -1,4 +1,4 @@
-FLL_DESCRIPTION="Music Player Daemon (MPD) - a flexible, powerful, server-side application for playing music."
+FLL_DESCRIPTION="Music Player Daemon (MPD) - a flexible, powerful, server-side application for playing music"
 
 FLL_PRE_PROCESSING=(
 	"#!/bin/bash"
@@ -11,10 +11,8 @@ FLL_PACKAGE_DEPMODS=(
 )
 
 FLL_PACKAGES=(
-     mpd
-     mpc
-     mpdscribble
-     ncmpcpp
-
+	mpd
+	mpc
+	mpdscribble
+	ncmpcpp
 )
-

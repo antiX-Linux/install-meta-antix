@@ -1,4 +1,4 @@
-FLL_DESCRIPTION="Greek Language Meta-Package for LibreOffice (no database)."
+FLL_DESCRIPTION="Greek Language Meta-Package for LibreOffice (no database)"
 
 FLL_PRE_PROCESSING=(
         "#!/bin/bash"
@@ -11,13 +11,12 @@ FLL_PACKAGE_DEPMODS=(
 )
 
 FLL_PACKAGES=( 
-       libreoffice-calc
-       libreoffice-draw     
-       libreoffice-impress 
-       libreoffice-math
-       libreoffice-writer
-       libreoffice-l10n-el
-       libreoffice-help-el
-       libreoffice-gtk
-
+	libreoffice-calc
+       	libreoffice-draw     
+       	libreoffice-impress 
+       	libreoffice-math
+       	libreoffice-writer
+       	libreoffice-l10n-el
+       	libreoffice-help-el
+       	libreoffice-gtk
 )

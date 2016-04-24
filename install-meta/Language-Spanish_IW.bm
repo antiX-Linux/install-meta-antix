@@ -12,6 +12,5 @@ FLL_PACKAGE_DEPMODS=(
 )
 
 FLL_PACKAGES=(
-	iceweasel-l10n-es-es 
-
+	iceweasel-l10n-es-es
 )

@@ -26,7 +26,5 @@ FLL_PACKAGES=(
         gimp-lensfun  
         #gimp-plugin-registry 
         #gimp-resynthesizer
-        gimp-texturize    
-
+        gimp-texturize
 )
-

@@ -1,4 +1,4 @@
-FLL_DESCRIPTION="Latest Netsurf browser."
+FLL_DESCRIPTION="Latest Netsurf browser"
 
 FLL_PRE_PROCESSING=(
 	"#!/bin/bash"
@@ -11,7 +11,5 @@ FLL_PACKAGE_DEPMODS=(
 )
 
 FLL_PACKAGES=(
-     netsurf
-  
+	netsurf
 )
-

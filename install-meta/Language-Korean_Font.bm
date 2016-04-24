@@ -11,11 +11,8 @@ FLL_PACKAGE_DEPMODS=(
 )
 
 FLL_PACKAGES=(
-
 	fonts-nanum
         fonts-nanum-extra
 	fonts-unfonts-core
         fonts-unfonts-extra
-
 )
-

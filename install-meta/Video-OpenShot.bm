@@ -1,4 +1,4 @@
-FLL_DESCRIPTION="OpenShot - non-linear video editor."
+FLL_DESCRIPTION="OpenShot - non-linear video editor"
 
 FLL_PRE_PROCESSING=(
 	"#!/bin/bash"
@@ -13,7 +13,5 @@ FLL_PACKAGE_DEPMODS=(
 FLL_PACKAGES=(
 	openshot
         openshot-doc 
-        frei0r-plugins
-        	
+        frei0r-plugins	
 )
-

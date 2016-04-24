@@ -1,4 +1,4 @@
-FLL_DESCRIPTION="MOC (music on console) - a console audio player designed to be powerful and easy to use."
+FLL_DESCRIPTION="MOC (music on console) - a console audio player designed to be powerful and easy to use"
 
 FLL_PRE_PROCESSING=(
 	"#!/bin/bash"
@@ -11,8 +11,6 @@ FLL_PACKAGE_DEPMODS=(
 )
 
 FLL_PACKAGES=(
-     moc
-     moc-ffmpeg-plugin 
-
+	moc
+	moc-ffmpeg-plugin
 )
-

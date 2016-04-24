@@ -1,4 +1,4 @@
-FLL_DESCRIPTION="recordMyDesktop - a desktop session recorder."
+FLL_DESCRIPTION="recordMyDesktop - a desktop session recorder"
 
 FLL_PRE_PROCESSING=(
 	"#!/bin/bash"
@@ -11,9 +11,6 @@ FLL_PACKAGE_DEPMODS=(
 )
 
 FLL_PACKAGES=(
-
 	gtk-recordmydesktop
         recordmydesktop
- 
 )
-

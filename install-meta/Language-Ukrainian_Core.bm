@@ -14,6 +14,4 @@ FLL_PACKAGES=(
 	aspell-uk
 	console-cyrillic
 	myspell-uk
-
 )
-

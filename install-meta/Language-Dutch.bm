@@ -1,4 +1,4 @@
-FLL_DESCRIPTION="Dutch Language Meta-Package."
+FLL_DESCRIPTION="Dutch Language Meta-Package"
 
 FLL_PRE_PROCESSING=(
 	"#!/bin/bash"
@@ -11,7 +11,6 @@ FLL_PACKAGE_DEPMODS=(
 )
 
 FLL_PACKAGES=(
-      aspell-nl
-      myspell-nl
-      
+	aspell-nl
+	myspell-nl
 )

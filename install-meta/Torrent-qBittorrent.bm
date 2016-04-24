@@ -1,4 +1,4 @@
-FLL_DESCRIPTION="qBittorrent - a QT4 feature rich but lightweight client that is very similar to uTorrent."
+FLL_DESCRIPTION="qBittorrent - a QT4 feature rich but lightweight client that is very similar to uTorrent"
 
 FLL_PRE_PROCESSING=(
 	"#!/bin/bash"
@@ -11,8 +11,5 @@ FLL_PACKAGE_DEPMODS=(
 )
 
 FLL_PACKAGES=(
-    
-       qbittorrent
-
+	qbittorrent
 )
-

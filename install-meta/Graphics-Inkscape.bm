@@ -11,8 +11,5 @@ FLL_PACKAGE_DEPMODS=(
 )
 
 FLL_PACKAGES=(
-	
-        inkscape
-              	
+	inkscape
 )
-

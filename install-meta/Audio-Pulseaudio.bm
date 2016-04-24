@@ -1,4 +1,4 @@
-FLL_DESCRIPTION="Pulseaudio - advanced sound server system."
+FLL_DESCRIPTION="Pulseaudio - advanced sound server system"
 
 FLL_PRE_PROCESSING=(
 	"#!/bin/bash"
@@ -11,12 +11,9 @@ FLL_PACKAGE_DEPMODS=(
 )
 
 FLL_PACKAGES=(
-    
-     pulseaudio
-     pulseaudio-module-x11  
-     gstreamer0.10-pulseaudio 
-     rtkit
-     pavucontrol
-
+	pulseaudio
+	pulseaudio-module-x11  
+	gstreamer0.10-pulseaudio 
+	rtkit
+	pavucontrol
 )
-

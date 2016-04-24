@@ -1,4 +1,4 @@
-FLL_DESCRIPTION="Dutch LibreOffice Language Meta-Package (no database)."
+FLL_DESCRIPTION="Dutch LibreOffice Language Meta-Package (no database)"
 
 FLL_PRE_PROCESSING=(
 	"#!/bin/bash"
@@ -19,5 +19,4 @@ FLL_PACKAGES=(
 	libreoffice-l10n-nl
 	libreoffice-help-nl
         libreoffice-gtk
-
 )

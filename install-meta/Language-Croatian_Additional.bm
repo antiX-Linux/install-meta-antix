@@ -11,8 +11,6 @@ FLL_PACKAGE_DEPMODS=(
 )
 
 FLL_PACKAGES=(
-      
-      language-env
-      maint-guide
+	language-env
+	maint-guide
 )
-

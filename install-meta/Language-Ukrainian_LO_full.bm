@@ -1,4 +1,4 @@
-FLL_DESCRIPTION="Ukrainian localisation of LibreOffice (installs LibreOffice if not installed yet)"
+FLL_DESCRIPTION="Ukrainian Language Meta-Package for LibreOffice"
 
 FLL_PRE_PROCESSING=(
 	"#!/bin/bash"
@@ -11,7 +11,7 @@ FLL_PACKAGE_DEPMODS=(
 )
 
 FLL_PACKAGES=(
-        libreoffice-base-core
+	libreoffice-base-core
         libreoffice-calc
         libreoffice-draw     
         libreoffice-impress 
@@ -20,5 +20,4 @@ FLL_PACKAGES=(
         libreoffice-base
 	libreoffice-l10n-uk
         libreoffice-gtk
-
 )

@@ -15,6 +15,4 @@ FLL_PACKAGES=(
 	icewm-common
 	#icewm-themes
         icewm-themes-antix
-
 )
-

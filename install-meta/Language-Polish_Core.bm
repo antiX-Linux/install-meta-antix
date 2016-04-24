@@ -1,4 +1,4 @@
-FLL_DESCRIPTION="Polish Language Meta-Package."
+FLL_DESCRIPTION="Polish Language Meta-Package"
 
 FLL_PRE_PROCESSING=(
 	"#!/bin/bash"
@@ -15,6 +15,4 @@ FLL_PACKAGES=(
 	manpages-pl
 	myspell-pl
 	ipolish
-
 )
-

@@ -1,10 +1,10 @@
 FLL_DESCRIPTION="Full LaTeX installation"
 
 FLL_PRE_PROCESSING=(
-   "#!/bin/bash"
-   "echo \"---- in preprocessing ----\""
-   "# paste your code here (not necessary for normal install, only for preconfigs)"
-   "echo \"---- preprocessing done----\""
+	"#!/bin/bash"
+   	"echo \"---- in preprocessing ----\""
+   	"# paste your code here (not necessary for normal install, only for preconfigs)"
+   	"echo \"---- preprocessing done----\""
 )
 
 FLL_PACKAGE_DEPMODS=(
@@ -51,4 +51,3 @@ FLL_PACKAGES=(
 	texlive-plain-extra
 	texlive-xetex
 )
-

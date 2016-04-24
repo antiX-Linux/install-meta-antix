@@ -21,6 +21,4 @@ FLL_PACKAGES=(
         lpr
         magicfilter
         gv
-
 )
-

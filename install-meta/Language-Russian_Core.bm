@@ -16,6 +16,4 @@ FLL_PACKAGES=(
 	manpages-ru
 	myspell-ru
 	irussian
-
 )
-

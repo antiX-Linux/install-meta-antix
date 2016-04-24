@@ -1,4 +1,4 @@
-FLL_DESCRIPTION="Blueman - a GTK+ bluetooth management utility."
+FLL_DESCRIPTION="Blueman - a GTK+ bluetooth management utility"
 
 FLL_PRE_PROCESSING=(
 	"#!/bin/bash"
@@ -11,9 +11,5 @@ FLL_PACKAGE_DEPMODS=(
 )
 
 FLL_PACKAGES=(
-
-      blueman
-     
-        
+	blueman        
 )
-

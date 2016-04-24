@@ -6,16 +6,13 @@ FLL_PRE_PROCESSING=(
 	"echo \"deb http://linux.dropbox.com/debian/ jessie main\">/etc/apt/sources.list.d/dropbox.list"
 	"apt-key adv --keyserver pgp.mit.edu --recv-keys 5044912E"
 	"apt-get update"
-	"echo \"---- preprocessing done----\""
+         "echo \"---- preprocessing done----\""
 )
 
 FLL_PACKAGE_DEPMODS=(
 )
 
-FLL_PACKAGES=(
-      
+FLL_PACKAGES=(   
 	dropbox
-	python-gpgme      
-    
+	python-gpgme
 )
-

@@ -1,4 +1,4 @@
-FLL_DESCRIPTION="apache2, php5, mysql server applications."
+FLL_DESCRIPTION="apache2, php5, mysql server applications"
 
 FLL_PRE_PROCESSING=(
 	"#!/bin/bash"
@@ -22,4 +22,3 @@ FLL_PACKAGES=(
 	php5-mysql
 	phpmyadmin
 )
-

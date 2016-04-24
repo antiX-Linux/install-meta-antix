@@ -1,0 +1,17 @@
+FLL_DESCRIPTION="Thai localisation of Firefox"
+
+
+FLL_PRE_PROCESSING=(
+	"#!/bin/bash"
+	"echo \"Adding Mozilla repository to /etc/apt/sources.list.d/various.list\""
+	"sed -i -r '/mozilla/ s/^#+//' /etc/apt/sources.list.d/various.list" 
+        "apt-get update"
+        "echo \"---- preprocessing done----\""
+)
+
+FLL_PACKAGE_DEPMODS=(
+)
+
+FLL_PACKAGES=(
+	firefox-l10n-xpi-th
+)

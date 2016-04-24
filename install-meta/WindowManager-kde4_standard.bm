@@ -15,4 +15,3 @@ FLL_PACKAGES=(
         kdm
         virtuoso-minimal
 )
-

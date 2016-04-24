@@ -17,5 +17,4 @@ FLL_PACKAGES=(
         ibus-gtk
         python-appindicator
         manpages-zh
-
 )

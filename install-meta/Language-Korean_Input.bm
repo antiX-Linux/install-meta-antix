@@ -11,11 +11,9 @@ FLL_PACKAGE_DEPMODS=(
 )
 
 FLL_PACKAGES=(
-
 	im-config 
         ibus-hangul  
         ibus-gtk
         python-appindicator
         fonts-baekmuk
-
 )

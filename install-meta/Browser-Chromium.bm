@@ -1,4 +1,4 @@
-FLL_DESCRIPTION="Latest Chromium browser."
+FLL_DESCRIPTION="Latest Chromium browser and language pack"
 
 FLL_PRE_PROCESSING=(
 	"#!/bin/bash"
@@ -11,8 +11,6 @@ FLL_PACKAGE_DEPMODS=(
 )
 
 FLL_PACKAGES=(
-     chromium
-     #chromium-browser-l10n
-
+	chromium
+	chromium-l10n
 )
-

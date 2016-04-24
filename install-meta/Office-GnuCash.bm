@@ -1,4 +1,4 @@
-FLL_DESCRIPTION="GnuCash - personal and small-business financial-accounting software."
+FLL_DESCRIPTION="GnuCash - personal and small-business financial-accounting software"
 
 FLL_PRE_PROCESSING=(
 	"#!/bin/bash"
@@ -11,6 +11,5 @@ FLL_PACKAGE_DEPMODS=(
 )
 
 FLL_PACKAGES=(
-	gnucash 
-
+	gnucash
 )

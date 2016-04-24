@@ -1,0 +1,14 @@
+FLL_DESCRIPTION="Legacy antiX Kernel 32 bit (3.7.10)"
+
+FLL_PRE_PROCESSING=(
+	"#!/bin/bash"
+	"echo \"---- preprocessing done----\""
+)
+
+FLL_PACKAGE_DEPMODS=(
+)
+
+FLL_PACKAGES=(
+	linux-image-3.7.10-antix.8-486-smp
+	linux-headers-3.7.10-antix.8-486-smp	
+)

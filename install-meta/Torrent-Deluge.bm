@@ -1,4 +1,4 @@
-FLL_DESCRIPTION="Deluge - a lightweight, cross-platform BitTorrent client."
+FLL_DESCRIPTION="Deluge - a lightweight, cross-platform BitTorrent client"
 
 FLL_PRE_PROCESSING=(
 	"#!/bin/bash"
@@ -11,9 +11,5 @@ FLL_PACKAGE_DEPMODS=(
 )
 
 FLL_PACKAGES=(
-    
-       deluge
-
-
+	deluge
 )
-

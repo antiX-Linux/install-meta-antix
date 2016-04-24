@@ -1,4 +1,4 @@
-FLL_DESCRIPTION="SMPlayer - gui frontend to MPlayer with other interesting features."
+FLL_DESCRIPTION="SMPlayer - gui frontend to MPlayer with other interesting features"
 
 FLL_PRE_PROCESSING=(
 	"#!/bin/bash"
@@ -11,8 +11,7 @@ FLL_PACKAGE_DEPMODS=(
 )
 
 FLL_PACKAGES=(
-     smplayer
-     smplayer-themes 
-
+	smplayer
+     	smplayer-themes 
+     	smplayer-l10n
 )
-

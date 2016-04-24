@@ -1,4 +1,4 @@
-FLL_DESCRIPTION="Catalan LibreOffice Language Meta-Package."
+FLL_DESCRIPTION="Catalan LibreOffice Language Meta-Package"
 
 FLL_PRE_PROCESSING=(
 	"#!/bin/bash"
@@ -11,7 +11,7 @@ FLL_PACKAGE_DEPMODS=(
 )
 
 FLL_PACKAGES=(
-        libreoffice-base-core
+	libreoffice-base-core
         libreoffice-calc
         libreoffice-draw     
         libreoffice-impress 
@@ -21,5 +21,4 @@ FLL_PACKAGES=(
         libreoffice-gtk
 	libreoffice-l10n-ca
 	libreoffice-help-ca
-
 )

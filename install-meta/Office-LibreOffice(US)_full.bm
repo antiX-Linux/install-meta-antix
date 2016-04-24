@@ -1,4 +1,4 @@
-FLL_DESCRIPTION="Libre Office - a multiplatform and multilingual office suite."
+FLL_DESCRIPTION="Libre Office - a multiplatform and multilingual office suite"
 
 FLL_PRE_PROCESSING=(
 	"#!/bin/bash"
@@ -19,5 +19,4 @@ FLL_PACKAGES=(
         libreoffice-writer
         libreoffice-base
         libreoffice-help-en-us
-
 )

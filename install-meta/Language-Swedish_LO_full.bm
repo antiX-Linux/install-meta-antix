@@ -1,4 +1,4 @@
-FLL_DESCRIPTION="Swedish Language Meta-Package for LibreOffice."
+FLL_DESCRIPTION="Swedish Language Meta-Package for LibreOffice"
 
 FLL_PRE_PROCESSING=(
         "#!/bin/bash"
@@ -11,15 +11,14 @@ FLL_PACKAGE_DEPMODS=(
 )
 
 FLL_PACKAGES=( 
-       libreoffice-base-core
-       libreoffice-calc
-       libreoffice-draw     
-       libreoffice-impress 
-       libreoffice-math
-       libreoffice-writer
-       libreoffice-base
-       libreoffice-l10n-sv 
-       libreoffice-help-sv
-       libreoffice-gtk
-
+	libreoffice-base-core
+       	libreoffice-calc
+       	libreoffice-draw     
+       	libreoffice-impress 
+       	libreoffice-math
+       	libreoffice-writer
+       	libreoffice-base
+       	libreoffice-l10n-sv 
+       	libreoffice-help-sv
+       	libreoffice-gtk
 )

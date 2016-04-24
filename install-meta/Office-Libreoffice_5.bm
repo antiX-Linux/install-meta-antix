@@ -1,0 +1,24 @@
+FLL_DESCRIPTION="Libreoffice 5 from jessie-backports (click again for updates)"
+
+FLL_PRE_PROCESSING=(
+	"#!/bin/bash"
+	"echo \"---- in preprocessing ----\""
+        "echo \"Adding Jessie-Backports repository to /etc/apt/sources.list.d\""
+	"echo \"deb http://http.debian.net/debian jessie-backports main\">/etc/apt/sources.list.d/jessielibrebackport.list"
+        "apt-get update"
+        "echo \"---- preprocessing done----\""
+)
+
+FLL_PACKAGE_DEPMODS=(
+)
+
+FLL_PACKAGES=(
+	
+)
+FLL_POST_PROCESSING=(
+	"#!/bin/bash"
+       	"echo \"---- in postprocessing ----\""
+       	"echo \"Removing jessie-backports repository from /etc/apt/sources.list.d/jessiebackport.list\""
+       	"rm -f /etc/apt/sources.list.d/jessielibrebackport.list"
+       	"echo \"---- postprocessing done----\""
+)

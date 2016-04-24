@@ -11,10 +11,9 @@ FLL_PACKAGE_DEPMODS=(
 )
 
 FLL_PACKAGES=(
-        samba
+	samba
 	pyneighborhood
 	smbclient 
         #smbfs
         cifs-utils 
 )
-
