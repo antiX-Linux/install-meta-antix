@@ -1,3 +1,40 @@
+install-meta-antix (0.6.9) unstable; urgency=medium
+
+  * Tidied up .bm files
+  * Use latest antiX 4.4.8 kernels
+  * Make sure correct 32 and 64 bit versions get installed 
+
+ -- anticapitalista <antix@operamail.com>  Sun, 24 Apr 2016 17:40:51 +0300
+
+install-meta-antix (0.6.8) unstable; urgency=medium
+
+  * Added 1-1 apps
+  * Use mozilla repos for firefox 
+
+ -- anticapitalista <antix@operamail.com>  Sat, 16 Apr 2016 14:55:36 +0300
+
+install-meta-antix (0.6.7) unstable; urgency=low 
+ 
+  * added antiX kernels.
+  * adapted thunderbird, firefox localisation for antiX. 
+
+ -- anticapitalista <antiX@operamail.com>  Sun, 06 Mar 2015 16:18:00 +0200
+
+
+install-meta-antix (0.6.6) unstable; urgency=low 
+ 
+  * Lots of new categories from mx version. 
+
+ -- anticapitalista <antiX@operamail.com>  Tue, 29 Dec 2015 17:52:00 +0200
+
+
+install-meta-antix (0.6.5.1) unstable; urgency=low 
+ 
+  * w64codecs not w32 (Non-free) 
+
+ -- anticapitalista <antiX@operamail.com>  Wed, 01 July 2015 22:36:00 +0200
+
+
 install-meta-antix (0.6.5) unstable; urgency=low 
  
   * Entry in .desktop file changed to System

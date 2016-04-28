@@ -6,15 +6,16 @@ FLL_PRE_PROCESSING=(
         "echo \"Adding Jessie-Backports repository to /etc/apt/sources.list.d\""
 	"echo \"deb http://http.debian.net/debian jessie-backports main\">/etc/apt/sources.list.d/jessielibrebackport.list"
         "apt-get update"
+	"apt-get -t jessie-backports install -y libreoffice-base-core libreoffice-calc libreoffice-draw libreoffice-impress libreoffice-math libreoffice-writer libreoffice-base" 
         "echo \"---- preprocessing done----\""
 )
 
 FLL_PACKAGE_DEPMODS=(
 )
 
-FLL_PACKAGES=(
-	
+FLL_PACKAGES=(	
 )
+
 FLL_POST_PROCESSING=(
 	"#!/bin/bash"
        	"echo \"---- in postprocessing ----\""

@@ -1,8 +1,6 @@
-metapackage-installer.desktop        /usr/share/applications/antix
-metapackage-installer.xpm            /usr/share/pixmaps
-metapackage-installer-16.xpm         /usr/share/pixmaps
-bin/*                                /usr/bin 
-locale/*                             /usr/share/locale
-install-meta/*                       /usr/share/install-meta
-changelog.gz                         /usr/share/doc/install-meta-antix
-copyright                            /usr/share/doc/install-meta-antix
+metapackage-installer.desktop        usr/share/applications/antix
+metapackage-installer.xpm            usr/share/pixmaps
+metapackage-installer-16.xpm         usr/share/pixmaps
+bin/*                                usr/bin 
+locale/*                             usr/share/locale
+install-meta/*                       usr/share/install-meta
