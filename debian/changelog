@@ -1,3 +1,16 @@
+install-meta-antix (0.6.11) unstable; urgency=medium
+
+  * added new default kernel 
+
+ -- anticapitalista <antix@operamail.com>  Thu, 26 May 2016 23:30:45 +0300
+
+install-meta-antix (0.6.10) unstable; urgency=medium
+
+  * Added Google chrome
+  * Moved 1o1voice to Messaging 
+
+ -- anticapitalista <antix@operamail.com>  Fri, 06 May 2016 18:51:11 +0300
+
 install-meta-antix (0.6.9) unstable; urgency=medium
 
   * Tidied up .bm files

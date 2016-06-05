@@ -1,0 +1,18 @@
+FLL_DESCRIPTION="Google Chrome (Stable)"
+
+FLL_PRE_PROCESSING=(
+"/usr/share/install-meta/install_chrome"
+
+
+)
+
+FLL_PACKAGE_DEPMODS=(
+)
+
+FLL_PACKAGES=(
+
+)
+
+FLL_POST_PROCESSING=(
+
+)
