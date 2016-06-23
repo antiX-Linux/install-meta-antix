@@ -1,4 +1,4 @@
-FLL_DESCRIPTION="Estonian localisation of Firefox"
+FLL_DESCRIPTION="Estonian localisation of latest Firefox from Mozilla"
 
 
 FLL_PRE_PROCESSING=(
@@ -14,5 +14,5 @@ FLL_PACKAGE_DEPMODS=(
 )
 
 FLL_PACKAGES=(
-	firefox-l10n-xpi-et
+	firefox-l10n-et
 )

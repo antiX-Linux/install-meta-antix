@@ -1,4 +1,4 @@
-FLL_DESCRIPTION="Turkish localisation of Firefox"
+FLL_DESCRIPTION="Turkish localisation of latest Firefox from Mozilla"
 
 
 FLL_PRE_PROCESSING=(
@@ -14,5 +14,5 @@ FLL_PACKAGE_DEPMODS=(
 )
 
 FLL_PACKAGES=(
-	firefox-l10n-xpi-tr
+	firefox-l10n-tr
 )

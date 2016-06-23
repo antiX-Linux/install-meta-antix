@@ -1,4 +1,4 @@
-FLL_DESCRIPTION="Thai localisation of Firefox"
+FLL_DESCRIPTION="Thai localisation of latest Firefox from Mozilla"
 
 
 FLL_PRE_PROCESSING=(
@@ -13,5 +13,5 @@ FLL_PACKAGE_DEPMODS=(
 )
 
 FLL_PACKAGES=(
-	firefox-l10n-xpi-th
+	firefox-l10n-th
 )

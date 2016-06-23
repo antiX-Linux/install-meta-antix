@@ -1,4 +1,4 @@
-FLL_DESCRIPTION="Latvian localisation of Firefox"
+FLL_DESCRIPTION="Latvian localisation of latest Firefox from Mozilla"
 
 
 FLL_PRE_PROCESSING=(
@@ -14,5 +14,5 @@ FLL_PACKAGE_DEPMODS=(
 )
 
 FLL_PACKAGES=(
-	firefox-l10n-xpi-lv
+	firefox-l10n-lv
 )

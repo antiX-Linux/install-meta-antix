@@ -1,4 +1,4 @@
-FLL_DESCRIPTION="Slovenian localisation of Firefox"
+FLL_DESCRIPTION="Slovenian localisation of latest Firefox from Mozilla"
 
 
 FLL_PRE_PROCESSING=(
@@ -14,5 +14,5 @@ FLL_PACKAGE_DEPMODS=(
 )
 
 FLL_PACKAGES=(
-	firefox-l10n-xpi-sl
+	firefox-l10n-sl
 )

@@ -1,3 +1,15 @@
+install-meta-antix (0.6.13) unstable; urgency=medium
+
+  * Updated latest kernels to 4.6.2 
+
+ -- anticapitalista <antix@operamail.com>  Sun, 19 Jun 2016 16:35:05 +0300
+
+install-meta-antix (0.6.12) unstable; urgency=medium
+
+  * Added changes for firefox-esr
+
+ -- anticapitalista <antix@operamail.com>  Fri, 10 Jun 2016 19:43:27 +0300
+
 install-meta-antix (0.6.11) unstable; urgency=medium
 
   * added new default kernel 

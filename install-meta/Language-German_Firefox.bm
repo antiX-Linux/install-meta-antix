@@ -1,4 +1,4 @@
-FLL_DESCRIPTION="German localisation of Firefox"
+FLL_DESCRIPTION="German localisation of latest Firefox from Mozilla"
 
 
 FLL_PRE_PROCESSING=(
@@ -14,5 +14,5 @@ FLL_PACKAGE_DEPMODS=(
 )
 
 FLL_PACKAGES=(
-	firefox-l10n-xpi-de
+	firefox-l10n-de
 )

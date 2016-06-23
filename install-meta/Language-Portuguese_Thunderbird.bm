@@ -14,13 +14,14 @@ FLL_PACKAGE_DEPMODS=(
 )
 
 FLL_PACKAGES=(
-	thunderbird-l10n-xpi-pt-pt
+	thunderbird-l10n-xpi-pt-pt 
 )
 
 FLL_POST_PROCESSING=(
-	"#!/bin/bash"
-       	"echo \"---- in postprocessing ----\""
-       	"echo \"Removing MX repository from /etc/apt/sources.list.d/mx.list\""
-       	"sed -i -r '/main/ s/^([^#])/#\1/' /etc/apt/sources.list.d/mx.list"
-       	"echo \"---- postprocessing done----\""
+       "#!/bin/bash"
+       "echo \"---- in postprocessing ----\""
+       "echo \"Removing MX repository from /etc/apt/sources.list.d/mx.list\""
+       "sed -i -r '/main/ s/^([^#])/#\1/' /etc/apt/sources.list.d/mx.list"
+       "echo \"---- postprocessing done----\""
+
 )

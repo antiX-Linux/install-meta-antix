@@ -1,0 +1,14 @@
+FLL_DESCRIPTION="Latest antiX Kernel 64 bit (4.6.2)"
+
+FLL_PRE_PROCESSING=(
+	"#!/bin/bash"
+	"echo \"---- preprocessing done----\""
+)
+
+FLL_PACKAGE_DEPMODS=(
+)
+
+FLL_PACKAGES=(
+	linux-image-4.6.2-antix.1-amd64-smp
+	linux-headers-4.6.2-antix.1-amd64-smp
+)
