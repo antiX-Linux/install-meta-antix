@@ -1,0 +1,15 @@
+FLL_DESCRIPTION="SA English localisation of default installed Firefox ESR"
+
+
+FLL_PRE_PROCESSING=(
+	"#!/bin/bash"
+	"echo \"---- in preprocessing ----\""
+        "echo \"---- preprocessing done----\""
+)
+
+FLL_PACKAGE_DEPMODS=(
+)
+
+FLL_PACKAGES=(
+      firefox-esr-l10n-en-za
+)

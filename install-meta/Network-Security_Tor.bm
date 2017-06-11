@@ -13,4 +13,5 @@ FLL_PACKAGE_DEPMODS=(
 FLL_PACKAGES=(
 	tor
 	privoxy
+        apt-transport-tor
 )

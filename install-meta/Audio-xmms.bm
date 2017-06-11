@@ -12,5 +12,5 @@ FLL_PACKAGE_DEPMODS=(
 
 FLL_PACKAGES=(
 	xmms
-	xmms-plugins-antix 
+	xmms-skins-antix 
 )

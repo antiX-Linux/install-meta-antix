@@ -4,8 +4,8 @@ FLL_DESCRIPTION="Albanian localisation of latest Firefox from Mozilla"
 FLL_PRE_PROCESSING=(
 	"#!/bin/bash"
 	"echo \"---- in preprocessing ----\""
-	"echo \"Adding Mozilla repository to /etc/apt/sources.list.d/various.list\""
-	"sed -i -r '/mozilla/ s/^#+//' /etc/apt/sources.list.d/various.list" 
+        "echo \"Enabling Debian unstable repository in /etc/apt/sources.list.d/debian.list\""
+        "sed -i -r '/unstable/ s/^#+//' /etc/apt/sources.list.d/debian.list"
         "apt-get update"
         "echo \"---- preprocessing done----\""
 )
@@ -15,4 +15,12 @@ FLL_PACKAGE_DEPMODS=(
 
 FLL_PACKAGES=(
 	firefox-l10n-sq
+)
+
+FLL_POST_PROCESSING=(
+       "#!/bin/bash"
+       "echo \"---- in postprocessing ----\""
+       "echo \"Disabling Debian unstable repository in /etc/apt/sources.list.d/debian.list\""
+        "sed -i -r '/unstable/ s/^([^#])/#\1/' /etc/apt/sources.list.d/debian.list"      
+       "echo \"---- postprocessing done----\""
 )

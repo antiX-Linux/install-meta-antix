@@ -11,6 +11,5 @@ FLL_PACKAGE_DEPMODS=(
 )
 
 FLL_PACKAGES=(	
-	texlive-doc-de
 	texlive-lang-german
 )

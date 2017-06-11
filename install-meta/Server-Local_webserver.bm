@@ -1,4 +1,4 @@
-FLL_DESCRIPTION="apache2, php5, mysql server applications"
+FLL_DESCRIPTION="apache2, php7, mysql server applications"
 
 FLL_PRE_PROCESSING=(
 	"#!/bin/bash"
@@ -13,12 +13,11 @@ FLL_PACKAGE_DEPMODS=(
 FLL_PACKAGES=(
 	apache2
 	apache2-utils
-	apache2-mpm-prefork
-	php5 
-        php5-common
-	mysql-server
-	mysql-common
-	libapache2-mod-php5
-	php5-mysql
+	apache2-mod-php7.0
+	php7.0
+        php7.0-mysql
+        php7.0-common 
 	phpmyadmin
+	mariadb-client
+	mariadb-server
 )

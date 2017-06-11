@@ -1,0 +1,14 @@
+FLL_DESCRIPTION="Central Khmer localisation of default installed Firefox ESR"
+
+
+FLL_PRE_PROCESSING=(
+	"#!/bin/bash"
+        "echo \"---- preprocessing done----\""
+)
+
+FLL_PACKAGE_DEPMODS=(
+)
+
+FLL_PACKAGES=(
+	firefox-esr-l10n-km
+)

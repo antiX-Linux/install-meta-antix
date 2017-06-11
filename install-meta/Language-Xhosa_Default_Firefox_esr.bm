@@ -1,0 +1,14 @@
+FLL_DESCRIPTION="Xhosa localisation of default installed Firefox ESR"
+
+ 
+	"#!/bin/bash"
+	"echo \"---- in preprocessing ----\""
+        "echo \"---- preprocessing done----\""
+)
+
+FLL_PACKAGE_DEPMODS=(
+)
+
+FLL_PACKAGES=(
+	firefox-esr-l10n-xh
+)

@@ -18,7 +18,7 @@ FLL_PACKAGES=(
       	libreoffice-math
       	libreoffice-writer
       	libreoffice-base
-      	libreoffice-l10n-pt-pt 
-      	libreoffice-help-pt-pt
+      	libreoffice-l10n-pt
+      	libreoffice-help-pt
       	libreoffice-gtk
 )

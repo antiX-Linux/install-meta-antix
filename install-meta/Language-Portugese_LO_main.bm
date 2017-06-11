@@ -16,7 +16,7 @@ FLL_PACKAGES=(
       libreoffice-impress 
       libreoffice-math
       libreoffice-writer
-      libreoffice-l10n-pt-pt
-      libreoffice-help-pt-pt
+      libreoffice-l10n-pt
+      libreoffice-help-pt
       
 )

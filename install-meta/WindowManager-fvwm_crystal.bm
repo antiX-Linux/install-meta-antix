@@ -23,7 +23,6 @@ FLL_PACKAGES=(
 	docbook-xsl
 	python
 	python-dev
-	python-support
 	imagemagick
 	xterm
 	xscreensaver

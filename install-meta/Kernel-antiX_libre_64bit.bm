@@ -9,6 +9,12 @@ FLL_PACKAGE_DEPMODS=(
 )
 
 FLL_PACKAGES=(
-	linux-image-4.4.10-gnu-antix.1-amd64-smp
-	linux-headers-4.4.10-gnu-antix.1-amd64-smp
+	
+	linux-image-4.4.10-gnu-antix-sid.1-amd64-smp
+	linux-headers-4.4.10-gnu-antix-sid.1-amd64-smp
+	
+)
+
+FLL_POST_PROCESSING=(
+   
 )

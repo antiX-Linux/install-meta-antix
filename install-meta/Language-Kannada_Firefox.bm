@@ -1,0 +1,26 @@
+FLL_DESCRIPTION="Kannada localisation of latest Firefox from Mozilla"
+
+
+FLL_PRE_PROCESSING=(
+	"#!/bin/bash"
+	"echo \"---- in preprocessing ----\""
+        "echo \"Enabling Debian unstable repository in /etc/apt/sources.list.d/debian.list\""
+        "sed -i -r '/unstable/ s/^#+//' /etc/apt/sources.list.d/debian.list"
+        "apt-get update"
+        "echo \"---- preprocessing done----\""
+)
+
+FLL_PACKAGE_DEPMODS=(
+)
+
+FLL_PACKAGES=(
+	firefox-l10n-kn
+)
+
+FLL_POST_PROCESSING=(
+       "#!/bin/bash"
+       "echo \"---- in postprocessing ----\""
+       "echo \"Disabling Debian unstable repository in /etc/apt/sources.list.d/debian.list\""
+        "sed -i -r '/unstable/ s/^([^#])/#\1/' /etc/apt/sources.list.d/debian.list"      
+       "echo \"---- postprocessing done----\""
+)

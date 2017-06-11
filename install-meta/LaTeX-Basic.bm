@@ -17,8 +17,6 @@ FLL_PACKAGES=(
 	texlive-latex-base 
 	texlive-latex-recommended
 	texlive-fonts-recommended
-	#texlive-doc-base
-	texlive-doc-en
 	preview-latex-style 
 	latex-beamer
 )

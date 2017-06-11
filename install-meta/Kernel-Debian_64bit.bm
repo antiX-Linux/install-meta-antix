@@ -1,4 +1,4 @@
-FLL_DESCRIPTION="Fallback Debian 3.16 64bit linux kernel"
+FLL_DESCRIPTION="Fallback Debian 4.9 64bit linux kernel"
 
 FLL_PRE_PROCESSING=(
 	"#!/bin/bash"
@@ -10,6 +10,9 @@ FLL_PACKAGE_DEPMODS=(
 )
 
 FLL_PACKAGES=(
-	linux-image-3.16.0-4-amd64
-	linux-headers-3.16.0-4-amd64
+	
+	linux-image-4.9.0-1-amd64
+	linux-headers-4.9.0-1-amd64
+
 )
+
